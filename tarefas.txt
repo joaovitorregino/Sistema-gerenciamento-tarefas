@@ -1,3 +1,8 @@
+
 Tarefa 1:
-Nome: amorDescricao: amarPrioridade: 1
-Status: 1
+
+Nome: Aniversario
+Descricao: 7/6 aniversario do joao
+Prioridade: 1
+
+Status: 3
