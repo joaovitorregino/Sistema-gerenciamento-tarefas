@@ -17,11 +17,11 @@ void salvarTarefasEmArquivo(char tarefas[][2][100], int numTarefas, int categori
         return;
     }
     for (int i = 0; i < numTarefas; i++) {
-        fprintf(arquivo, "Tarefa %d:\n", i + 1);
-        fprintf(arquivo, "Nome: %s", tarefas[i][0]);
-        fprintf(arquivo, "Descricao: %s", tarefas[i][1]);
-        fprintf(arquivo, "Prioridade: %d\n", categoria[i][0]);
-        fprintf(arquivo, "Status: %d\n", categoria[i][1]);
+        fprintf(arquivo, "\nTarefa %d:\n", i + 1);
+        fprintf(arquivo, "\nNome: %s", tarefas[i][0]);
+        fprintf(arquivo, "\nDescricao: %s", tarefas[i][1]);
+        fprintf(arquivo, "\nPrioridade: %d\n", categoria[i][0]);
+        fprintf(arquivo, "\nStatus: %d\n", categoria[i][1]);
     }
     fclose(arquivo);
     printf("Tarefas salvas com sucesso no arquivo 'tarefas.txt'.\n");
